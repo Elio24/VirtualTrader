@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.conteneur {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+nav {
+    background-color: #0056b3;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.section-entete {
+    background-color: #003366;
+    color: white;
+    padding: 60px 0 30px;
+}
+.contenu-entete {
+    margin-bottom: 30px;
+}
+.titre-entete {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+.surbrillance {
+    color: #ffcc00;
+}
+.sous-titre-entete {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.separateur-simple {
+    height: 3px;
+    background-color: #0077cc;
+    margin-top: 30px;
+    width: 100%;
+}
+.conteneur-graphique {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.image-graphique {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.boutons-action {
+    margin-top: 30px;
+}
+.bouton-principal, .bouton-secondaire, .bouton-lien {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.bouton-principal {
+    background-color: #ffcc00;
+    color: #003366;
+}
+.bouton-secondaire {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.bouton-lien {
+    background-color: #0077cc;
+    color: white;
+}
+.bouton-principal:hover, .bouton-secondaire:hover, .bouton-lien:hover {
+    opacity: 0.9;
+}
+
+.section-fonctionnement, .section-fonctionnalites, .section-temoignages, .section-appel-action {
+    padding: 60px 0;
+    text-align: center;
+}
+.section-fonctionnement, .section-temoignages {
+    background-color: #fff;
+}
+.section-fonctionnalites {
+    background-color: #f5f9ff;
+}
+.section-appel-action {
+    background-color: #003366;
+    color: white;
+}
+.section-appel-action h2 {
+    color: white;
+}
+.titre-section {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.conteneur-etapes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.etape {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+.icone-etape {
+    font-size: 2.5rem;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.grille-fonctionnalites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.carte-fonctionnalite {
+    flex: 1;
+    min-width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+.icone-fonctionnalite {
+    font-size: 2.5rem;
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.conteneur-temoignages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.carte-temoignage {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 30px;
+}
+.evaluation-temoignage {
+    color: #ffcc00;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.auteur-temoignage {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.avatar-temoignage {
+    font-size: 2rem;
+    color: #0077cc;
+    margin-right: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #eef2f5;
+    text-align: center;
+}
+th {
+    background-color: #dbe9ff;
+    font-weight: bold;
+    color: #003366;
+}
+
+form {
+    background: #f9f9f9;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+form input, form select, form button {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+form button {
+    background-color: #0077cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+form label {
+    font-weight: 600;
+    color: #003366;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.succes {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+    color: #155724;
+}
+.erreur {
+    background-color: #f8d7da;
+    border-left: 4px solid #dc3545;
+    color: #721c24;
+}
+
+@media (max-width: 768px) {
+    .section-entete .conteneur {
+        flex-direction: column;
+    }
+    .contenu-entete {
+        text-align: center;
+    }
+    .boutons-action {
+        justify-content: center;
+    }
+    .conteneur-etapes, .grille-fonctionnalites, .conteneur-temoignages {
+        flex-direction: column;
+    }
+}
+
+.g-recaptcha {
+    margin: 20px 0;
+}
