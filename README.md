@@ -20,4 +20,4 @@ php auto_simulate_windows_fix.php 60
 
 Le projet est prévu pour une démonstration locale. L’attribution du rôle administrateur repose sur l’adresse e-mail saisie à l’inscription.
 
-Projet réalisé par **Elio, Bilel et Eliott**. [Rapport du projet](rapport.pdf)
+Projet réalisé en équipe par **Elio, Bilel et Eliott**. [Rapport du projet](rapport.pdf)
